@@ -10,6 +10,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const theme = createTheme();
 
@@ -56,6 +57,13 @@ export default function LandingPage() {
                 target="_blank"
               >
                 <FacebookIcon />
+              </Button>
+              <Button
+                variant="outlined"
+                href="https://www.linkedin.com/in/jahangirpial/"
+                target="_blank"
+              >
+                <LinkedInIcon />
               </Button>
               <Button
                 variant="outlined"
