@@ -39,7 +39,7 @@ export default function LandingPage() {
               paragraph
             >
               I'm <strong>Jahangir Pial</strong> a professional Software
-              Engineer, currently working at mPower Social. Also, I'm a full
+              Engineer, currently working at Portonics Limited. Also, I'm a full
               time learner of new technologies and many more things! If you have
               any investment idea or plan to develop any tech project, feel free
               to contact with me.
