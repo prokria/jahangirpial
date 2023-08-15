@@ -44,6 +44,7 @@ export default function LandingPage() {
                   variant="outlined"
                   href="https://www.facebook.com/jpial/"
                   target="_blank"
+                  color="inherit"
               >
                 <FacebookIcon />
               </Button>
@@ -51,6 +52,7 @@ export default function LandingPage() {
                   variant="outlined"
                   href="https://www.linkedin.com/in/jahangirpial/"
                   target="_blank"
+                  color="inherit"
               >
                 <LinkedInIcon />
               </Button>
@@ -58,6 +60,7 @@ export default function LandingPage() {
                   variant="outlined"
                   href="https://twitter.com/jahangirpial"
                   target="_blank"
+                  color="inherit"
               >
                 <TwitterIcon />
               </Button>
@@ -65,12 +68,14 @@ export default function LandingPage() {
                   variant="outlined"
                   href="https://github.com/japial"
                   target="_blank"
+                  color="inherit"
               >
                 <GitHubIcon />
               </Button>
               <Button
                   variant="outlined"
                   href="mailto:jahangiralompial@gmail.com"
+                  color="inherit"
               >
                 <EmailIcon />
               </Button>
@@ -81,7 +86,7 @@ export default function LandingPage() {
               color="text.primary"
               paragraph
             >
-             <h4> I'm a Software Engineer with a Passion for Innovation.</h4>
+             <p style={{textAlign: 'center'}}> I'm <strong>Jahangir Alom Pial.</strong>  A Software Engineer with a Passion for Innovation.</p>
 
               <p>
                   <strong>👨‍ About Me: </strong>
@@ -156,7 +161,7 @@ export default function LandingPage() {
             </Typography>
 
               <Box sx={{ textAlign: "center", padding: 3, border: "1px solid #DDD" }}>
-                  <img src="/logo.png" alt="JahangirPial" width="200" />
+                  <img src="/logo.png" alt="JahangirPial" width="150" />
               </Box>
           </Container>
         </Box>
